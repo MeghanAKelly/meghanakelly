@@ -1,0 +1,66 @@
+/*------------resumepage------------*/
+.resumeheader {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.resumeheadertext {
+	width: 700px;
+	margin: 0 auto;
+}
+.mainwrapper {
+	width: 700px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.leftcolumn {
+	width: 60%;
+	padding-right: 5%;
+	float: left;
+	background-color: yellow;
+}
+.rightcolumn {
+	width: 30%;
+	float: left;
+	background-color: pink;
+}
+.resumeheadertext h1, h3{
+	margin: 0 auto;
+	text-align: center;
+}
+#designer h6, p {
+	line-height: 1.1;
+}
+#designer p {
+	padding-top: 3px;
+}
+.location {
+	float: left;
+}
+.dates {
+	float: right;
+}
+.jobdescription {
+	clear: both;
+}
+.job {
+	padding-top: 10px;
+}
+#Penn ul li {
+	font-family: "Cambria", serif;
+	font-size: 14px;
+	padding-left: 30px;
+	list-style-type: none;
+	line-height: 1.0;
+}
+.emailaddress {
+	display: inline;
+	margin: 0 auto;
+	width: 300px;
+}
+#circle{
+	display: inline;
+	margin: 0 auto;
+	padding: 0;
+}

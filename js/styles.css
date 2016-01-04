@@ -1,0 +1,340 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+/*----------------MAIN STYLES -----------------*/
+body{
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+
+}
+h1 {
+	font-family: "Playfair Display", serif;
+	font-size: 55px;
+	color:black;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 0;
+}
+h2 {
+	font-family: "Playfair Display", serif;
+	font-size: 40px;
+	color:black;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 0;
+}
+h3 {
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+	color:black;
+	margin: 0 auto;
+	padding: 0;
+}
+h4 {
+	font-family: "Playfair Display", serif;
+	font-size: 20px;
+	color: black;
+	text-transform: uppercase;
+}
+h5 {
+	font-family: "Lato", sans-serif;
+	font-size: 18px;
+	color:black;
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: none;
+}
+.jobtitle {
+	font-family: "Cambria", serif;
+	font-size: 16px;
+	color:black;
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: none;
+	font-weight: 600;
+}
+h6 {
+	font-family: "Cambria", serif;
+	font-size: 13px;
+	color:black;
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: none;
+	font-style: italic;
+}
+a {
+	text-decoration: none;
+}
+hr {
+	clear:both;
+	z-index: 1;
+	color: gray;
+	padding: 0;
+}
+p {
+	font-family: "Cambria", serif;
+	font-size: 14px;
+}
+.btn {
+	width: 80px;
+	height: 20px;
+	margin: 0 auto;
+	padding:10px;
+	box-shadow: 3px 3px 3px #999;
+}
+.btn a {
+	color:white;
+	font-family: "Lato", sans-serif;
+	font-size: 18px;
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: none;
+	-webkit-transition: 0.2s color ease-in-out;
+}
+.btn a:hover {
+	color: black;
+	-webkit-transition: 0.2s color ease-in-out;
+}
+
+/*-----------------NAVIGATION -------------------*/
+nav {
+	background: rgba(255, 255, 255, 0.8);
+	margin: 0;
+	width: 100%;
+	position: fixed;
+
+}
+nav ul {
+	margin: auto;
+	padding: 0;
+	width: 960px;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	float: right;
+
+}
+nav ul li a {
+	color: black;
+	display: block;
+	line-height: 2em;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	font-family: "lato", sans-serif;
+	-webkit-transition: 0.3s background-color ease-in-out;
+	-webkit-transition: 0.3s color ease-in-out;
+}
+nav ul li a:hover{
+	background-color:#56b7a3;
+	color: white;
+	-webkit-transition: 0.3s color ease-in-out;
+	-webkit-transition: 0.3s background-color ease-in-out;
+}
+nav ul li a:active{
+	background-color:#56b7a3;
+	color: white;
+	-webkit-transition: 0.3s color ease-in-out;
+	-webkit-transition: 0.3s background-color ease-in-out;
+	}
+
+#home{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 5px;
+	background: url("../img/mlogo2.png") 0 0;
+}
+
+/*-----------------SLIDE 1 -------------------*/
+.slide1 {
+	width: 100%;
+	height:600px;
+	background-image: url("../img/untitled-5.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+#header {
+	width: 550px;
+	padding-top:220px;
+	margin: 0 auto;
+	text-align: center;
+}
+#header h3 {
+	padding-bottom: 20px;
+}
+.btn-header {
+	background-color:#56b7a3;
+}
+
+.btn-header a{
+	text-decoration: none;
+	color: white;
+}
+/*-----------------SLIDE 2 -------------------*/
+.slide2 {
+	width: 100%;
+	height:475px;
+	background-color: white;
+	background-size: cover;
+	margin: 0 auto;
+}
+#abouttitle {
+	width: 275px;
+	padding-top:50px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: white;
+}
+#abouttext {
+	width: 450px;
+	height: 300px;
+	margin: 0 auto;
+	float: left;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+.aboutbox {
+	width: 750px;
+	height: 500px;
+	padding: 50;
+	margin: 0 auto;
+}
+#meghan {
+	height: 150px;
+	width: 150px;
+	padding: 35px;
+	float: left;
+}
+.btn-about {
+	width: 130px;
+	text-align: center;
+	clear: both;
+	margin-bottom: 75px;
+	background-color:#56b7a3;
+}
+/*-----------------SLIDE 3 -------------------*/
+.slide3 {
+	width: 100%;
+	height:300px;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+#worktitle {
+	width: 300px;
+	padding-top:25px;
+	margin: 0 auto;
+	text-align: center;
+}
+#worktext {
+	width: 600px;
+	height: 150px;padding-top: 25px;
+	margin: 0 auto;
+	padding: 75 25 25 25;
+}
+/*-----------------SLIDE 4 -------------------*/
+.slide4 {
+	width: 100%;
+	height:300px;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+.contactbox {
+	height: 450px;
+	padding: 50;
+	margin: 0 auto;
+}
+/*----------contacttext -----------*/
+#contacttext {
+	height:300px;
+	width: 50%;
+	background-color: #56b7a3;
+	text-align: center;
+	padding-top: 100px;
+	float: left;
+	padding-bottom: 50px;
+	color:black;
+}
+#contactwrapper {
+	max-width: 450px;
+	padding: 0;
+	margin: 0 auto;
+}
+#contacttext a{
+	text-align: center;
+	color:black;
+	font-family: "Lato", sans-serif;
+	font-size: 18px;
+	margin: 0 auto;
+	padding: 20px;
+	text-decoration: none;
+	-webkit-transition: 0.2s color ease-in-out;
+}
+#contacttext a:hover{
+	color: white;
+	-webkit-transition: 0.3s color ease-in-out;
+	-webkit-transition: 0.3s background-color ease-in-out;
+}
+
+/*----------contactpic -----------*/
+#Contactpic {
+	width:50%;
+	height: 450px;
+	background-image: url("../img/notebook.png");
+	float: left;
+	margin: 0 auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
